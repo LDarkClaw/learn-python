@@ -10,6 +10,7 @@ def split_text_by_separators(text: str, seps: list[str]) -> list[str]:
     for symbol in text:
         if r_num == len(result[i]):
                 result.append('')
+                r_num=randon_number()
                 i+=1
         result[-1] += symbol
 
