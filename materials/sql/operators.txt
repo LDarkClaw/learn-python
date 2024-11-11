@@ -1,0 +1,6 @@
+select - ВЫБЕРИ
+* - все колонки
+from - из
+employees - таблицы с именем employees
+
+select * from employees limit 10    вернуть из таблицы employees первые 10 записей
